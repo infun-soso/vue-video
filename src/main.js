@@ -6,10 +6,14 @@ import router from './router'
 import store from './store'
 import './base/rem'
 import VueLazyload from 'vue-lazyload'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(VueLazyload, {
   loading: 'http://www.wclimb.site/images/imgLoading.svg'
 })
+
+Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 

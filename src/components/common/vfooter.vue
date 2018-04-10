@@ -4,7 +4,7 @@
       <i class="iconfont icon-dianying"></i>
       <span>主页</span>
     </router-link>
-    <router-link to="/me">
+    <router-link to="/login">
       <i class="iconfont icon-my1"></i>
       <span>我</span>
     </router-link>
